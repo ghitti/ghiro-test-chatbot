@@ -8,7 +8,7 @@ def on_chat_message(msg):
         bot.sendMessage(chat_id, 'Hello %s, I am a stupid bot!'%name)
         bot.sendMessage(chat_id, 'I have received this: %s'%txt)
 
-TOKEN = '865509123:AAG7FRgrtssbx2QmSDdYUzOpz9h1Rzz5HpI'
+TOKEN = 'insert_your_token'
 
 bot = telepot.Bot(TOKEN)
 bot.message_loop(on_chat_message)
